@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
-    const navigate = useNavigate();
+    const navigate = useNavigate();         //Use Navigate hook to navigate between pages
     function handleClick(){
         navigate('/about')
     }
